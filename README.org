@@ -1,0 +1,80 @@
+#+TITLE: Wenceslao Facundo Marquez Burgos
+#+SUBTITLE: Senior Backend Engineer
+#+AUTHOR: 
+#+EMAIL: wenceslao.marquez@leniolabs.com
+#+DATE: 
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[scale=0.85]{geometry}
+#+LATEX_HEADER: \usepackage{sectsty}
+
+
+* Summary
+
+Experienced Senior Backend Engineer with a strong background in developing applications using Python, Go, PHP, and TypeScript/JavaScript.
+Skilled in data modeling, architecture design, and Infrastructure as Code (IaC).
+
+* Technologies and Tools
+- Cloud: AWS, Azure
+- IaC: Terraform, AWS CloudFormation
+- Containers: Docker
+- Languages: Go, Python, PHP, JavaScript/TypeScript
+- Frameworks: GinGonic, Gqlgen, Flask, Connexion, FastAPI, Django, Pandas, Laravel, Drupal 8/7, Node.js, Next.js, Express
+- Databases: MySQL, PostgreSQL, MongoDB
+
+* Work Experience
+
+** Homevision
+   *Jul. 2023 - May 2024 - Python/Go Engineer*
+
+- Developed a backend system for processing Appraisal Documents, extracting and normalizing client, appraisal, and property information.
+- Achieved 99.99% accuracy in data extraction and normalization through extensive data classification revisions.
+- Process hundreds of appraisal documents daily. Both new and revisions of rejected documents.
+- Perform validations to each submission to speed up the iterative process.
+- Managed infrastructure using Terraform and AWS services (ECS with Fargate, AWS Lambda, SNS/SQS, S3).
+
+** Leniolabs
+   *Jul. 2022 - Jul. 2023 - Python Backend Engineer*
+
+- Maintained and developed internal applications for Smarbiz, transitioning from Flask APIs to FastAPI.
+- Implemented async jobs communicated via AWS SQS and SNS.
+- Managed Infrastructure as Code with Terraform.
+
+** 42mate
+   *Jul. 2019 - Jul. 2022 - Web Developer*
+
+- **IBOR Migration**: Migrated an ECommerce platform from Drupal 7 to Drupal 8, developing custom modules and integrating with client's ERP.
+- **Kimberly Clark Order Automation**: Developed a web application using Django, MSSQL, Vue, Docker, CosmosDB, and Azure. Integrated Okta for authentication.
+- **Genies CMS and Developer Portal**: Built a CMS using Python, Go, Docker, PHP, MySQL, and Redis. Integrated AWS services (Pinpoint, Cognito, S3) and implemented event tracking with Segment.
+- **Internal Projects**: Worked on projects using React.js, building pipelines, configuring nginx, and developing a GraphQL Go API.
+
+** UTN, Internship in Computer Laboratories
+   *Nov. 2018 - Jun. 2019*
+
+- Maintained network and software infrastructure, working with Linux (Ubuntu), EGroupware, Bash, Python, Samba File Server, and VirtualBox.
+- Developed a session creation system for Virtual Machines using Bash, Python, and VirtualBox to improve usability and prevent disk damage.
+
+* Education
+
+** Information Systems Engineering
+   *UTN (Universidad Tecnológica Nacional)*
+   - Currently studying in the 4th year.
+
+** Training in Web Development in Python
+   *Globant*
+
+* Languages
+
+- Spanish (native)
+- English (fluent)
+
+* Personal Interests
+
+- Programming and developing tools to improve computer usability.
+- Exploring new technologies and tools, web development, and Unix-like operating systems.
+- Enjoying music, movies, comics, and video games.
+
+* Links
+
+- GitHub: https://github.com/wmb1207
+- GitLab: https://gitlab.com/wenceslao1207
+- Twitter: https://twitter.com/wenceslao1207
