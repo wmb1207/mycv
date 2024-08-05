@@ -1,0 +1,150 @@
+#+TITLE: Wenceslao Facundo Marquez Burgos - Backend Engineer
+
+* Career Summary
+
+I'm a Senior Backend Engineer. I'm interested in the development of applications using languages such as Python, GO, PHP and Typescript/Javascript.
+My preference is focusing on data modeling, architecture design and Infrastructure as Codes . However I know Javascript and I can work without problems on the frontend side too.
+
+* Technologies and Tools
+- AWS
+- Terraform
+- AWS Cloudformation
+- Linux 
+- Docker
+- Go
+  - GinGonic
+  - Gqlgen
+- Python
+  - Flask
+  - Connexion
+  - FastAPI
+  - Django
+  - Pandas
+- PHP
+  - Laravel
+  - Drupal 8/7
+- Javascript/Typescript
+  - Nodejs
+  - NextJS
+  - Express
+- MySQL
+- PostgreSQL
+- MongoDB
+- Shell Scripting
+- Azure
+
+* Work Experience
+
+** Homevision
+   Jul. 2023 - May 2024 - Python/Go Engineer
+
+I have worked as a Go/Python backend Engineer working mainly on an internal project processing Appraiasal Documents to extract the client, appraisal, and property information.  
+Once the data was extracted and normalized we used to create a new type of file called an Envelope (or ENV Appraisal) and perform a series of rules checks to validate the Appraisal.  
+
+The main source of complexity was the amount of different forms that exists, combined with the absence of a document standard for these files, making it pretty difficult to split the raw data extracted from the documents and the form template.
+
+The process of getting the extraction/normalization accuracy up to 99.99% required thousands of files and several revisions to the data classification process
+
+All the infrastructure to support this project, and the connection between this and the existing applications was done using Terraform.  
+The AWS services used were:
+- ECS with Fargate
+- AWS Lambda
+- SNS / SQS
+- S3
+
+** Leniolabs
+   Jul. 2022 - Jul. 2023
+
+I have worked as a Python backend Engineer focused on developing internal applications for the client Smarbiz.
+
+My work consists in maintaining internal applications, as well as developing new ones, and handling the IaC with Terraform.
+
+The applications that we were maintaining were Flask APIs, while the new ones were getting developed with FastAPI, and async jobs that were communicated with queues on AWS (SQS + SNS)
+
+** 42mate
+   Jul. 2019 - Jul. 2022
+
+I have worked as a Web Developer using technologies such as Python, Go, PHP, and Javascript.  
+
+- 42mate - IBOR Migration (First 6 Months)
+
+In this project I have worked on an ECommerce with Drupal 8 using the Docker4Drupal stack (MariaDB, PHP7.3, Nginx, Nodejs, Traefik, Redis, Mailhog, Portainer) where I mainly worked as a back-end developer, but also did some front-end development.
+
+This project consisted of migrating the website from a drupal 7 site with drupal commerce to a drupal 8 site with drupal commerce 2 with a new design and new features, which involved migrations of users and other entities.
+
+During the development of this project I’ve created some custom modules, being the biggest one a module used to sync between the Website and the client's ERP, using an intermediate database where I write all transactions from the website, and update the transactions data if the other system updated something in this shared database, using cron jobs, queues, and migrations. The whole idea was to sync the sales on the Web to the ERP, and get back updates from the ERP to the orders in the Web.
+
+I also worked a lot with database migrations, Drupal Events and Event Subscribers, custom fields and field formatters, Drupal hooks, custom filters, among others.
+
+On the front-end side, I worked in performing the live update for the cart block, using the commerce cart Rest API and drupal behaviors. I also did some styles using Sass.
+
+I also had the opportunity to learn more about Docker, the drawbacks of Docker in macOS and how to increase its performance using docker-sync in this case, I also learn more about webpack and how to configure it from scratch to compile all Sass files into one css file, and all the js files into one, I also learn how to use make and makefiles.
+
+- 42mate – Kimberly Clark Order Automation (6 Months)
+
+In this project I have worked on the web application used to communicate with the Order Automation tool developed also by 42mate. In this project I used Django, MSSQL and Vue, Docker, CosmosDB and Azure for hosting. This project also included the integration with the Okta service for authentication and different azure tools like the keyvault and Cosmos DB. I worked as a full stack developer since it was a team of two.
+
+This web application consists of a portal for users to register clients data and invoices examples so the Automation app could analyze the invoice and create a new order automatically. This app also lets the administrators check which client has been added for each country where the client had business.
+
+This project was implemented in Latin America and India.
+
+- 42mate – Genies CMS, Developer Portal and CMS NFT Subsystem (2 years)
+
+In this project I worked as a Backend Engineer using mainly Python, Go, Docker, PHP (Laravel) as well as Mysql and Redis
+
+This project consists of a CMS to handle all the Genies partners, their requests and the e-commerce functionality.
+
+During this project I had to integrate AWS services like:
+- Pinpoint (For sending emails, campaign and notifications)
+- Cognito (For authentication and user registration)
+- S3 buckets (For storing assets) 
+
+To create this integration I used the AWS PHP SDK. I also implemented Segment for event tracking, a task I was working closely with the analytics team.
+
+The CMS Subsystem is the first of many microservices that would conform to the new Genies CMS Architecture. This one is built using Python with Connexion and Flask and its main feature is to let the CMS communicate with the Admin Graphql API (Genies-APP) originally developed by Dapper. For this feature I implemented a new graphql client that lets you write mutations and queries as a simple python class.
+For this microservice we used AWS Aurora for the database.
+
+The Genies Auth System is the last of the projects that I worked with Genies and it’s mainly a Graphql API written in Go. It's composed by a set of aws Lambda functions that will get orchestrated by AWS Appsync. 
+The Infrastructure for this project was built using Terraform
+
+- 42mate – Internal projects 
+
+I also worked on a series of internal projects including the current 42mate site.
+These projects all had the objective of teaching me new things outside of my comfort zone like working as a front end developer with Reactjs, or working building pipelines, or configuring nginx instances. 
+
+The last internal project I worked on was a GraphQL Go API called Reppad, this api was a reimplementation of the DapperLabs System we were working with during the Genies CMS project.
+This was built as a way to have an environment where the rest of the team can test the integration with DapperLabs since they never provide us with a dev environment.
+
+** UTN, Internship in Computer Laboratories
+   Nov. 2018 - Jun. 2019
+
+I perform equipment maintenance both at network and software level. Here I was able to work with technologies like Linux, specifically Ubuntu, EGroupware, Bash, Python, Samba File Server, VirtualBox.
+
+Here I develop a Session creation system for Virtual Machines using Bash, python and VirtualBox. This system consists in creating a session in which only the virtual machine runs in full screen, passing all the usb devices to the virtual machine, and when turning it off, turns off the host. 
+
+This idea arose from two problems: The students did not turn off the virtual machines correctly, damaging their disks, and both students and teachers found it difficult to access USB devices from VirtualBox. 
+
+You can see the project at https://gitlab.com/wenceslao1207/lab-sessions
+
+* Education
+
+Information Systems Engineering UTN (Universidad Tecnológica Nacional)
+Currently studying the 4th year of the degree.
+
+Training in Web Development in Python. Globant
+
+* Languages
+
+Spanish  (native)
+English 
+
+* Personal Information
+
+I like to program and develop tools to facilitate the use of my computer, such as brightness, volume controls, learning about new technologies and tools, learning about web development, facing challenges, learning more about different unix like operating systems, listening to music, watching movies, reading comics, playing video games, etc.
+
+* My links
+
+- https://github.com/wmb1207
+- https://gitlab.com/wenceslao1207
+- https://twitter.com/wenceslao1207
+- https://github.com/wmb1207
